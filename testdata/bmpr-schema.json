@@ -1,0 +1,247 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://balsamiq.com/schemas/bmpr-json.schema.json",
+  "title": "BMPR JSON Export Schema",
+  "description": "JSON schema for Balsamiq Mockups Project files converted to JSON format",
+  "type": "object",
+  "required": ["info"],
+  "properties": {
+    "info": {
+      "type": "object",
+      "description": "Project metadata from the INFO table",
+      "required": ["schemaVersion", "archiveFormat"],
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "description": "The BMPR file format version (e.g., '1.0', '2.0')",
+          "pattern": "^[0-9]+\\.[0-9]+$"
+        },
+        "archiveFormat": {
+          "type": "string",
+          "const": "bmpr",
+          "description": "Archive format identifier"
+        },
+        "archiveRevision": {
+          "type": "string",
+          "description": "Number of times the archive has been modified"
+        },
+        "archiveRevisionUuid": {
+          "type": "string",
+          "description": "Unique ID for the latest revision"
+        },
+        "archiveAttributes": {
+          "type": "object",
+          "description": "Additional archive metadata",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Project name"
+            },
+            "creationDate": {
+              "type": "string",
+              "description": "Project creation timestamp (ISO 8601 format)"
+            }
+          }
+        }
+      }
+    },
+    "mockups": {
+      "type": "array",
+      "description": "Array of mockup wireframes in the project",
+      "items": {
+        "type": "object",
+        "required": ["id", "branchId"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the mockup"
+          },
+          "branchId": {
+            "type": "string",
+            "description": "Branch this mockup belongs to (e.g., 'Master')"
+          },
+          "attributes": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Mockup name"
+              },
+              "kind": {
+                "type": "string",
+                "description": "Resource type (e.g., 'Mockup')"
+              },
+              "order": {
+                "type": "string",
+                "description": "Display order as a string number"
+              },
+              "trashed": {
+                "type": "boolean",
+                "description": "Whether the mockup is in trash"
+              },
+              "creationDate": {
+                "type": "string",
+                "description": "Creation timestamp (ISO 8601 format)"
+              },
+              "thumbnailID": {
+                "type": "string",
+                "description": "UUID of the mockup's thumbnail"
+              },
+              "notes": {
+                "type": "string",
+                "description": "Notes for this mockup"
+              },
+              "mimeType": {
+                "type": "string",
+                "description": "MIME type of the mockup data"
+              },
+              "importedFrom": {
+                "type": "string",
+                "description": "Original file path if imported"
+              }
+            }
+          },
+          "measuredH": {
+            "type": "string",
+            "description": "Measured height in pixels"
+          },
+          "measuredW": {
+            "type": "string",
+            "description": "Measured width in pixels"
+          },
+          "mockupH": {
+            "type": "string",
+            "description": "Mockup height in pixels"
+          },
+          "mockupW": {
+            "type": "string",
+            "description": "Mockup width in pixels"
+          },
+          "version": {
+            "type": "string",
+            "description": "Mockup data version"
+          },
+          "controls": {
+            "type": "array",
+            "description": "Array of UI controls/elements in the mockup",
+            "items": {
+              "type": "object",
+              "required": ["id", "typeID"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "Unique control ID within the mockup"
+                },
+                "typeID": {
+                  "type": "string",
+                  "description": "Type of control (e.g., 'Button', 'Label', 'DataGrid')"
+                },
+                "x": {
+                  "type": "string",
+                  "description": "X position in pixels"
+                },
+                "y": {
+                  "type": "string",
+                  "description": "Y position in pixels"
+                },
+                "w": {
+                  "type": "string",
+                  "description": "Width in pixels"
+                },
+                "h": {
+                  "type": "string",
+                  "description": "Height in pixels"
+                },
+                "measuredW": {
+                  "type": "string",
+                  "description": "Measured width"
+                },
+                "measuredH": {
+                  "type": "string",
+                  "description": "Measured height"
+                },
+                "zOrder": {
+                  "type": "string",
+                  "description": "Z-order/layering position"
+                },
+                "properties": {
+                  "type": "object",
+                  "description": "Control-specific properties",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "branches": {
+      "type": "array",
+      "description": "Project branches (alternates)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "branchID": {
+            "type": "string",
+            "description": "Branch identifier"
+          },
+          "attributes": {
+            "type": "object",
+            "description": "Branch attributes"
+          }
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "description": "Project assets (images, etc.)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Asset ID"
+          },
+          "attributes": {
+            "type": "object",
+            "description": "Asset metadata"
+          }
+        }
+      }
+    },
+    "symbolLibraries": {
+      "type": "array",
+      "description": "Custom symbol libraries",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Symbol library ID"
+          },
+          "attributes": {
+            "type": "object",
+            "description": "Library metadata"
+          }
+        }
+      }
+    },
+    "thumbnails": {
+      "type": "array",
+      "description": "Mockup thumbnails",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Thumbnail ID"
+          },
+          "attributes": {
+            "type": "object",
+            "description": "Thumbnail metadata including image hash"
+          }
+        }
+      }
+    }
+  }
+}

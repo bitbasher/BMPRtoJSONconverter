@@ -83,7 +83,7 @@ namespace BmprArchiveModel.Model
                 // Load thumbnails
                 InternalLoadThumbnails(db, project, createHashes);
             }
-            
+
             // Sort members so that serialization always produces similar results
             project.Mockups = project.Mockups.OrderBy(n => n.Attributes.Name).ToList();
             project.SymbolLibraries = project.SymbolLibraries.OrderBy(n => n.Attributes.Name).ToList();
@@ -92,9 +92,9 @@ namespace BmprArchiveModel.Model
 
             return project;
         }
-        
+
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="sourceFile"></param>
         /// <returns></returns>
@@ -136,11 +136,20 @@ namespace BmprArchiveModel.Model
                     info.Properties.Add(row[0], row[1]);
             }
 
-            // Ensure we support this schema
-            if (info.SchemaVersion == null 
-                || ProjectInfo.SUPPORTED_SCHEMA.Major != new Version(info.SchemaVersion).Major)
-                // Not a supported schema, throw exception
-                throw new Exception(String.Format("Invalid bmpr archive format. Only version {0} is supported.", ProjectInfo.SUPPORTED_SCHEMA));
+            // Ensure we support this schema (support versions 1.x and 2.x)
+            if (info.SchemaVersion == null)
+            {
+                throw new Exception("Invalid bmpr archive format. Missing SchemaVersion.");
+            }
+
+            Version fileVersion = new Version(info.SchemaVersion);
+            if (fileVersion.Major < ProjectInfo.SUPPORTED_SCHEMA_MIN.Major
+                || fileVersion.Major > ProjectInfo.SUPPORTED_SCHEMA_MAX.Major)
+            {
+                // Not a supported schema version, throw exception
+                throw new Exception(String.Format("Invalid bmpr archive format. Only versions {0}.x to {1}.x are supported. Found version {2}.",
+                    ProjectInfo.SUPPORTED_SCHEMA_MIN.Major, ProjectInfo.SUPPORTED_SCHEMA_MAX.Major, info.SchemaVersion));
+            }
 
             return info;
         }
@@ -176,7 +185,7 @@ namespace BmprArchiveModel.Model
                             container = new SymbolLibrary();
                             project.SymbolLibraries.Add(container as SymbolLibrary);
                         }
-                        
+
                         // Set properties and attributes
                         container.Id = row[0];
                         container.BranchId = row[1];
@@ -205,7 +214,7 @@ namespace BmprArchiveModel.Model
                                 else if (!attributes.Trashed)
                                 {
                                     Warning(String.Format("Empty {0}, may be removed: {1}", attributes.Kind.ToString().ToLower(), attributes.Name));
-                                }   
+                                }
                             }
                         }
 
@@ -291,7 +300,8 @@ namespace BmprArchiveModel.Model
                 thumbnail.Attributes = JObject.Parse(row[1]).ToObject<Dictionary<String, JToken>>();
 
                 // Create a hash for thumbnail image, as no value in reading thumbnail data
-                if (createHashes)
+                // Note: In schema 2.0, image data might not be present in ATTRIBUTES
+                if (createHashes && thumbnail.Attributes.ContainsKey("image"))
                 {
                     using (MD5 md5 = MD5.Create())
                     {
@@ -421,7 +431,7 @@ namespace BmprArchiveModel.Model
         {
             if (unknownThings.Count == 0)
                 return;
-            
+
             bool first = true;
             StringBuilder s = new StringBuilder();
             foreach (String u in unknownThings)
@@ -435,7 +445,7 @@ namespace BmprArchiveModel.Model
                 {
                     s.Append(", ").Append(u);
                 }
-            } 
+            }
 
             Warning(String.Format("Unknown {0}: {1}", thingName, s));
         }

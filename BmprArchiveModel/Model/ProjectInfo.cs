@@ -7,7 +7,9 @@ namespace BmprArchiveModel.Model
 {
     public class ProjectInfo
     {
-        public static readonly Version SUPPORTED_SCHEMA = new Version("1.0");
+        // Support both version 1.x and 2.x
+        public static readonly Version SUPPORTED_SCHEMA_MIN = new Version("1.0");
+        public static readonly Version SUPPORTED_SCHEMA_MAX = new Version("2.0");
 
         public const String ATTRIBUTES_PROP = "ArchiveAttributes";
         public const String FORMAT_PROP = "ArchiveFormat";

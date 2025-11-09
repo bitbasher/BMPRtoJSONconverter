@@ -1,0 +1,1432 @@
+{
+  "info": {
+    "archiveAttributes": {
+      "name": "New Project"
+    },
+    "archiveFormat": "bmpr",
+    "archiveRevision": "422",
+    "archiveRevisionUuid": "",
+    "schemaVersion": "2.0"
+  },
+  "mockups": [
+    {
+      "id": "9AD5A7BC-D24C-4E04-900C-86E5EB9D5F3F",
+      "attributes": {
+        "name": "Edit Menu",
+        "kind": "Mockup",
+        "trashed": false,
+        "order": "938438.536017131",
+        "creationDate": "1970-01-01T00:00:00Z",
+        "importedFrom": ""
+      },
+      "branchId": "Master",
+      "measuredH": "502",
+      "measuredW": "265",
+      "mockupH": "502",
+      "mockupW": "265",
+      "version": "1.0",
+      "controls": [
+        {
+          "id": "69",
+          "typeID": "Menu",
+          "x": "0",
+          "y": "0",
+          "w": "265",
+          "measuredW": "150",
+          "measuredH": "502",
+          "zOrder": "0",
+          "properties": {
+            "text": ":undo: Undo,Ctrl+Z\n:redo:,Redo,Ctrl+Shift+Z >\n---\n:scissors-regular::,Cut\n:copy-regular:,Copy\n:paste-regular::,Paste\n=\n:indent-solid: Indent\n:outdent-regular:Unindent\n:comment-plus-regular::,Comment\n:comment-minus-regular:Uncomment\nConvert Tabs to Spaces\nToggle Bookmark, Ctrl+F2\nJump To Next Bookmark, F2\nJump To Previous Bookmark,Shift+F2\n=\n:magnifying-glass-solid:Find..., Ctrl+F\n:magnifying-glass-arrow-right-solid:Find and Replace...,Ctrl+Shift+F\n-Find Next-\n-Find Previous-\nUse Selection for Find,Ctrl+E\n=\nJump to Next Error,Ctrl+Alt+E\n=\nA:up-solid: Increase Font Size,Ctrl++\nA:down-solid: Decrease Font Size,Ctrl+-\nPreferences...\n"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2278E287-509B-183B-1098-2EC38DDDB7D8",
+      "attributes": {
+        "name": "main-window-edit-cons-view",
+        "kind": "Mockup",
+        "trashed": false,
+        "order": "938428.526465444",
+        "creationDate": "1970-01-01T00:00:00Z",
+        "importedFrom": ""
+      },
+      "branchId": "Master",
+      "measuredH": "798",
+      "measuredW": "1167",
+      "mockupH": "798",
+      "mockupW": "1167",
+      "version": "3.0",
+      "controls": [
+        {
+          "id": "2",
+          "typeID": "Arrow",
+          "x": "129",
+          "y": "48",
+          "w": "1022",
+          "h": "1",
+          "measuredW": "150",
+          "measuredH": "100",
+          "zOrder": "1",
+          "properties": {
+            "shape": "line",
+            "color": 10265519,
+            "leftArrow": "false",
+            "rightArrow": "false",
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 0.5,
+              "y": 0
+            },
+            "p2": {
+              "x": 1022,
+              "y": 1
+            }
+          }
+        },
+        {
+          "id": "3",
+          "typeID": "Icon",
+          "x": "0",
+          "y": "2",
+          "measuredW": "16",
+          "measuredH": "16",
+          "zOrder": "2",
+          "properties": {
+            "icon": {
+              "ID": "cube-solid",
+              "size": "xsmall"
+            },
+            "color": 4937059
+          }
+        },
+        {
+          "id": "39",
+          "typeID": "Icon",
+          "x": "648",
+          "y": "269",
+          "measuredW": "16",
+          "measuredH": "16",
+          "zOrder": "16",
+          "properties": {
+            "icon": {
+              "ID": "image-regular",
+              "size": "xsmall"
+            },
+            "color": 4937059
+          }
+        },
+        {
+          "id": "59",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "484",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "8",
+          "properties": {
+            "text": "{color:EF4444}X{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 15680580,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "X"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "60",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "500",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "9",
+          "properties": {
+            "text": "{color:22C55E}Y{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 2278750,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "Y"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "61",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "516",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "10",
+          "properties": {
+            "text": "{color:3B82F6}Z{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 3900150,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "Z"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "63",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "0",
+          "w": "1167",
+          "h": "798",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "0",
+          "properties": {
+            "text": "       Untitled.scad - OpenSCAD",
+            "minimize": "true",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "29"
+          }
+        },
+        {
+          "id": "64",
+          "typeID": "MenuBar",
+          "x": "0",
+          "y": "26",
+          "w": "1167",
+          "h": "32",
+          "measuredW": "316",
+          "measuredH": "32",
+          "zOrder": "3",
+          "properties": {
+            "text": "File, Edit, Design, View, Window, Help",
+            "hrefs": {
+              "href": [
+                {},
+                {
+                  "ID": "9AD5A7BC-D24C-4E04-900C-86E5EB9D5F3F"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "67",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "236",
+          "w": "688",
+          "h": "535",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "4",
+          "properties": {
+            "text": "Editor",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "0",
+            "size": "14",
+            "topheight": "25"
+          }
+        },
+        {
+          "id": "69",
+          "typeID": "ButtonBar",
+          "x": "0",
+          "y": "261",
+          "w": "688",
+          "h": "32",
+          "measuredW": "505",
+          "measuredH": "27",
+          "zOrder": "11",
+          "properties": {
+            "text": ":plus:,:folder-open:,:save:,:undo:,:redo:,:align-left:,:align-center:,:align-right:,:play:,:cube:,OBJ,SVG,   "
+          }
+        },
+        {
+          "id": "70",
+          "typeID": "HSplitter",
+          "x": "688",
+          "y": "58",
+          "h": "713",
+          "measuredW": "12",
+          "measuredH": "100",
+          "zOrder": "12"
+        },
+        {
+          "id": "71",
+          "typeID": "TabBar",
+          "x": "0",
+          "y": "290",
+          "w": "688",
+          "h": "483",
+          "measuredW": "191",
+          "measuredH": "100",
+          "zOrder": "13",
+          "properties": {
+            "text": "File One,Untitled.scad"
+          }
+        },
+        {
+          "id": "74",
+          "typeID": "TitleWindow",
+          "x": "700",
+          "y": "553",
+          "w": "467",
+          "h": "216",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "5",
+          "properties": {
+            "text": "Console",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "0",
+            "size": "14"
+          }
+        },
+        {
+          "id": "75",
+          "typeID": "VSplitter",
+          "x": "700",
+          "y": "541",
+          "w": "467",
+          "measuredW": "100",
+          "measuredH": "12",
+          "zOrder": "15"
+        },
+        {
+          "id": "76",
+          "typeID": "Image",
+          "x": "700",
+          "y": "58",
+          "w": "467",
+          "h": "483",
+          "measuredW": "77",
+          "measuredH": "79",
+          "zOrder": "7",
+          "properties": {
+            "size": "14"
+          }
+        },
+        {
+          "id": "77",
+          "typeID": "TextInput",
+          "x": "809",
+          "y": "771",
+          "w": "358",
+          "measuredW": "213",
+          "measuredH": "25",
+          "zOrder": "6",
+          "properties": {
+            "text": "OpenSCAD 2025.10.21 (git d05aec3ed) ",
+            "size": "11",
+            "align": "right",
+            "borderStyle": "line"
+          }
+        },
+        {
+          "id": "78",
+          "typeID": "TextInput",
+          "x": "0",
+          "y": "769",
+          "w": "809",
+          "measuredW": "658",
+          "measuredH": "27",
+          "zOrder": "14",
+          "properties": {
+            "text": "Viewport: translate = [ 0.00 0.00 0.00 ], rotate = [ 55.00 0.00 25.00 ], distance = 140.00, fov = 22.50 (693x386) "
+          }
+        }
+      ]
+    },
+    {
+      "id": "A5DF32DA-8F5C-4A85-AB7E-BEC259EA9D6A",
+      "attributes": {
+        "name": "main-window-preferences",
+        "kind": "Mockup",
+        "trashed": false,
+        "order": "938431.398760882",
+        "creationDate": "1970-01-01T00:00:00Z",
+        "importedFrom": ""
+      },
+      "branchId": "Master",
+      "measuredH": "798",
+      "measuredW": "1167",
+      "mockupH": "798",
+      "mockupW": "1167",
+      "version": "3.0",
+      "controls": [
+        {
+          "id": "2",
+          "typeID": "Arrow",
+          "x": "129",
+          "y": "48",
+          "w": "1022",
+          "h": "1",
+          "measuredW": "150",
+          "measuredH": "100",
+          "zOrder": "1",
+          "properties": {
+            "shape": "line",
+            "color": 10265519,
+            "leftArrow": "false",
+            "rightArrow": "false",
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 0.5,
+              "y": 0
+            },
+            "p2": {
+              "x": 1022,
+              "y": 1
+            }
+          }
+        },
+        {
+          "id": "3",
+          "typeID": "Icon",
+          "x": "0",
+          "y": "2",
+          "measuredW": "16",
+          "measuredH": "16",
+          "zOrder": "2",
+          "properties": {
+            "icon": {
+              "ID": "cube-solid",
+              "size": "xsmall"
+            },
+            "color": 4937059
+          }
+        },
+        {
+          "id": "39",
+          "typeID": "Icon",
+          "x": "648",
+          "y": "269",
+          "measuredW": "16",
+          "measuredH": "16",
+          "zOrder": "16",
+          "properties": {
+            "icon": {
+              "ID": "image-regular",
+              "size": "xsmall"
+            },
+            "color": 4937059
+          }
+        },
+        {
+          "id": "59",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "484",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "8",
+          "properties": {
+            "text": "{color:EF4444}X{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 15680580,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "X"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "60",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "500",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "9",
+          "properties": {
+            "text": "{color:22C55E}Y{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 2278750,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "Y"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "61",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "516",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "10",
+          "properties": {
+            "text": "{color:3B82F6}Z{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 3900150,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "Z"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "63",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "0",
+          "w": "1167",
+          "h": "798",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "0",
+          "properties": {
+            "text": "       Untitled.scad - OpenSCAD",
+            "minimize": "true",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "29"
+          }
+        },
+        {
+          "id": "64",
+          "typeID": "MenuBar",
+          "x": "0",
+          "y": "26",
+          "w": "1167",
+          "h": "32",
+          "measuredW": "316",
+          "measuredH": "32",
+          "zOrder": "3",
+          "properties": {
+            "text": "File, Edit, Design, View, Window, Help",
+            "hrefs": {
+              "href": [
+                {},
+                {
+                  "ID": "9AD5A7BC-D24C-4E04-900C-86E5EB9D5F3F"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "67",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "236",
+          "w": "688",
+          "h": "535",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "4",
+          "properties": {
+            "text": "Editor",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "0",
+            "size": "14",
+            "topheight": "25"
+          }
+        },
+        {
+          "id": "69",
+          "typeID": "ButtonBar",
+          "x": "0",
+          "y": "261",
+          "w": "688",
+          "h": "32",
+          "measuredW": "505",
+          "measuredH": "27",
+          "zOrder": "11",
+          "properties": {
+            "text": ":plus:,:folder-open:,:save:,:undo:,:redo:,:align-left:,:align-center:,:align-right:,:play:,:cube:,OBJ,SVG,   "
+          }
+        },
+        {
+          "id": "70",
+          "typeID": "HSplitter",
+          "x": "688",
+          "y": "58",
+          "h": "713",
+          "measuredW": "12",
+          "measuredH": "100",
+          "zOrder": "12"
+        },
+        {
+          "id": "71",
+          "typeID": "TabBar",
+          "x": "0",
+          "y": "290",
+          "w": "688",
+          "h": "483",
+          "measuredW": "191",
+          "measuredH": "100",
+          "zOrder": "13",
+          "properties": {
+            "text": "File One,Untitled.scad"
+          }
+        },
+        {
+          "id": "74",
+          "typeID": "TitleWindow",
+          "x": "700",
+          "y": "553",
+          "w": "467",
+          "h": "216",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "5",
+          "properties": {
+            "text": "Console",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "0",
+            "size": "14"
+          }
+        },
+        {
+          "id": "75",
+          "typeID": "VSplitter",
+          "x": "700",
+          "y": "541",
+          "w": "467",
+          "measuredW": "100",
+          "measuredH": "12",
+          "zOrder": "15"
+        },
+        {
+          "id": "76",
+          "typeID": "Image",
+          "x": "700",
+          "y": "58",
+          "w": "467",
+          "h": "483",
+          "measuredW": "77",
+          "measuredH": "79",
+          "zOrder": "7",
+          "properties": {
+            "size": "14"
+          }
+        },
+        {
+          "id": "77",
+          "typeID": "TextInput",
+          "x": "809",
+          "y": "771",
+          "w": "358",
+          "measuredW": "213",
+          "measuredH": "25",
+          "zOrder": "6",
+          "properties": {
+            "text": "OpenSCAD 2025.10.21 (git d05aec3ed) ",
+            "size": "11",
+            "align": "right",
+            "borderStyle": "line"
+          }
+        },
+        {
+          "id": "78",
+          "typeID": "TextInput",
+          "x": "0",
+          "y": "769",
+          "w": "809",
+          "measuredW": "658",
+          "measuredH": "27",
+          "zOrder": "14",
+          "properties": {
+            "text": "Viewport: translate = [ 0.00 0.00 0.00 ], rotate = [ 55.00 0.00 25.00 ], distance = 140.00, fov = 22.50 (693x386) "
+          }
+        }
+      ]
+    },
+    {
+      "id": "AA398952-6638-459D-A9C7-8FE6D9551D45",
+      "attributes": {
+        "name": "main-window-show-edit",
+        "kind": "Mockup",
+        "trashed": false,
+        "order": "938434.450728577",
+        "creationDate": "1970-01-01T00:00:00Z",
+        "importedFrom": ""
+      },
+      "branchId": "Master",
+      "measuredH": "798",
+      "measuredW": "1167",
+      "mockupH": "798",
+      "mockupW": "1167",
+      "version": "3.0",
+      "controls": [
+        {
+          "id": "2",
+          "typeID": "Arrow",
+          "x": "129",
+          "y": "48",
+          "w": "1022",
+          "h": "1",
+          "measuredW": "150",
+          "measuredH": "100",
+          "zOrder": "1",
+          "properties": {
+            "shape": "line",
+            "color": 10265519,
+            "leftArrow": "false",
+            "rightArrow": "false",
+            "p0": {
+              "x": 0,
+              "y": 0
+            },
+            "p1": {
+              "x": 0.5,
+              "y": 0
+            },
+            "p2": {
+              "x": 1022,
+              "y": 1
+            }
+          }
+        },
+        {
+          "id": "3",
+          "typeID": "Icon",
+          "x": "0",
+          "y": "2",
+          "measuredW": "16",
+          "measuredH": "16",
+          "zOrder": "2",
+          "properties": {
+            "icon": {
+              "ID": "cube-solid",
+              "size": "xsmall"
+            },
+            "color": 4937059
+          }
+        },
+        {
+          "id": "39",
+          "typeID": "Icon",
+          "x": "648",
+          "y": "269",
+          "measuredW": "16",
+          "measuredH": "16",
+          "zOrder": "16",
+          "properties": {
+            "icon": {
+              "ID": "image-regular",
+              "size": "xsmall"
+            },
+            "color": 4937059
+          }
+        },
+        {
+          "id": "59",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "484",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "8",
+          "properties": {
+            "text": "{color:EF4444}X{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 15680580,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "X"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "60",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "500",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "9",
+          "properties": {
+            "text": "{color:22C55E}Y{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 2278750,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "Y"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "61",
+          "typeID": "Paragraph",
+          "x": "654",
+          "y": "516",
+          "w": "10",
+          "h": "15",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "10",
+          "properties": {
+            "text": "{color:3B82F6}Z{color}",
+            "size": "11",
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  {
+                    "type": "color",
+                    "value": "color",
+                    "color": 3900150,
+                    "hasSpace": false,
+                    "hashtag": false,
+                    "children": [
+                      "Z"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "63",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "0",
+          "w": "1167",
+          "h": "798",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "0",
+          "properties": {
+            "text": "       Untitled.scad - OpenSCAD",
+            "minimize": "true",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "29"
+          }
+        },
+        {
+          "id": "64",
+          "typeID": "MenuBar",
+          "x": "0",
+          "y": "26",
+          "w": "1167",
+          "h": "32",
+          "measuredW": "316",
+          "measuredH": "32",
+          "zOrder": "3",
+          "properties": {
+            "text": "File, Edit, Design, View, Window, Help",
+            "hrefs": {
+              "href": [
+                {},
+                {
+                  "ID": "9AD5A7BC-D24C-4E04-900C-86E5EB9D5F3F"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "67",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "236",
+          "w": "688",
+          "h": "535",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "4",
+          "properties": {
+            "text": "Editor",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "0",
+            "size": "14",
+            "topheight": "25"
+          }
+        },
+        {
+          "id": "69",
+          "typeID": "ButtonBar",
+          "x": "0",
+          "y": "261",
+          "w": "688",
+          "h": "32",
+          "measuredW": "505",
+          "measuredH": "27",
+          "zOrder": "11",
+          "properties": {
+            "text": ":plus:,:folder-open:,:save:,:undo:,:redo:,:align-left:,:align-center:,:align-right:,:play:,:cube:,OBJ,SVG,   "
+          }
+        },
+        {
+          "id": "70",
+          "typeID": "HSplitter",
+          "x": "688",
+          "y": "58",
+          "h": "713",
+          "measuredW": "12",
+          "measuredH": "100",
+          "zOrder": "12"
+        },
+        {
+          "id": "71",
+          "typeID": "TabBar",
+          "x": "0",
+          "y": "290",
+          "w": "688",
+          "h": "483",
+          "measuredW": "191",
+          "measuredH": "100",
+          "zOrder": "13",
+          "properties": {
+            "text": "File One,Untitled.scad"
+          }
+        },
+        {
+          "id": "74",
+          "typeID": "TitleWindow",
+          "x": "700",
+          "y": "553",
+          "w": "467",
+          "h": "216",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "5",
+          "properties": {
+            "text": "Console",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "0",
+            "size": "14"
+          }
+        },
+        {
+          "id": "75",
+          "typeID": "VSplitter",
+          "x": "700",
+          "y": "541",
+          "w": "467",
+          "measuredW": "100",
+          "measuredH": "12",
+          "zOrder": "15"
+        },
+        {
+          "id": "76",
+          "typeID": "Image",
+          "x": "700",
+          "y": "58",
+          "w": "467",
+          "h": "483",
+          "measuredW": "77",
+          "measuredH": "79",
+          "zOrder": "7",
+          "properties": {
+            "size": "14"
+          }
+        },
+        {
+          "id": "77",
+          "typeID": "TextInput",
+          "x": "809",
+          "y": "771",
+          "w": "358",
+          "measuredW": "211",
+          "measuredH": "25",
+          "zOrder": "6",
+          "properties": {
+            "text": "OpenSCAD 2025.10.21 (git d05aec3ed) ",
+            "size": "11",
+            "align": "right",
+            "borderStyle": "line"
+          }
+        },
+        {
+          "id": "78",
+          "typeID": "TextInput",
+          "x": "0",
+          "y": "769",
+          "w": "809",
+          "measuredW": "659",
+          "measuredH": "27",
+          "zOrder": "14",
+          "properties": {
+            "text": "Viewport: translate = [ 0.00 0.00 0.00 ], rotate = [ 55.00 0.00 25.00 ], distance = 140.00, fov = 22.50 (693x386) "
+          }
+        },
+        {
+          "id": "79",
+          "typeID": "Menu",
+          "x": "54",
+          "y": "58",
+          "measuredW": "150",
+          "measuredH": "502",
+          "zOrder": "17",
+          "properties": {
+            "text": ":undo: Undo,Ctrl+Z\n:redo:,Redo,Ctrl+Shift+Z >\n---\n:scissors-regular::,Cut\n:copy-regular:,Copy\n:paste-regular::,Paste\n=\n:indent-solid: Indent\n:outdent-regular:Unindent\n:comment-plus-regular::,Comment\n:comment-minus-regular:Uncomment\nConvert Tabs to Spaces\nToggle Bookmark, Ctrl+F2\nJump To Next Bookmark, F2\nJump To Previous Bookmark,Shift+F2\n=\n:magnifying-glass-solid:Find..., Ctrl+F\n:magnifying-glass-arrow-right-solid:Find and Replace...,Ctrl+Shift+F\n-Find Next-\n-Find Previous-\nUse Selection for Find,Ctrl+E\n=\nJump to Next Error,Ctrl+Alt+E\n=\nA:up-solid: Increase Font Size,Ctrl++\nA:down-solid: Decrease Font Size,Ctrl+-\nPreferences...\n"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BD0DD1C0-73ED-4587-A781-EB8FE9A2FCBF",
+      "attributes": {
+        "name": "Preferences-Color Schemes",
+        "kind": "Mockup",
+        "trashed": false,
+        "order": "938432.892540994",
+        "notes": "",
+        "creationDate": "1970-01-01T00:00:00Z",
+        "importedFrom": ""
+      },
+      "branchId": "Master",
+      "measuredH": "400",
+      "measuredW": "795",
+      "mockupH": "400",
+      "mockupW": "795",
+      "version": "3.0",
+      "controls": [
+        {
+          "id": "0",
+          "typeID": "TitleWindow",
+          "x": "0",
+          "y": "0",
+          "measuredW": "450",
+          "measuredH": "400",
+          "zOrder": "0",
+          "properties": {
+            "text": "Preferences",
+            "minimize": "true",
+            "maximizeRestore": "true",
+            "close": "true",
+            "bottomheight": "55"
+          }
+        },
+        {
+          "id": "11",
+          "typeID": "TabBar",
+          "x": "160",
+          "y": "81",
+          "w": "284",
+          "h": "259",
+          "measuredW": "150",
+          "measuredH": "100",
+          "zOrder": "10",
+          "properties": {
+            "text": "Editor, Render",
+            "selectedIndex": "1"
+          }
+        },
+        {
+          "id": "12",
+          "typeID": "FieldSet",
+          "x": "160",
+          "y": "69",
+          "w": "284",
+          "h": "271",
+          "measuredW": "200",
+          "measuredH": "170",
+          "zOrder": "9",
+          "properties": {
+            "text": "blank"
+          }
+        },
+        {
+          "id": "13",
+          "typeID": "List",
+          "x": "160",
+          "y": "111",
+          "w": "284",
+          "h": "229",
+          "measuredW": "109",
+          "measuredH": "126",
+          "zOrder": "11",
+          "properties": {
+            "borderStyle": "none",
+            "icons": {
+              "icons": [
+                {
+                  "ID": "star-solid",
+                  "size": "large"
+                },
+                {
+                  "ID": "heart-solid",
+                  "size": "large"
+                },
+                {
+                  "ID": "circle-solid",
+                  "size": "large"
+                }
+              ]
+            },
+            "hasHeader": "true"
+          }
+        },
+        {
+          "id": "2",
+          "typeID": "MenuBar",
+          "x": "0",
+          "y": "23",
+          "w": "450",
+          "h": "32",
+          "measuredW": "266",
+          "measuredH": "32",
+          "zOrder": "1",
+          "properties": {
+            "text": ":cube-regular:, :square-pen-regular:, :screwdriver-wrench-regular:, :print-regular:, :gear-complex-regular:, :joystick-regular:, :keyboard-regular:, :window-flip-regular:"
+          }
+        },
+        {
+          "id": "3",
+          "typeID": "TextArea",
+          "x": "5",
+          "y": "80",
+          "w": "146",
+          "h": "260",
+          "measuredW": "200",
+          "measuredH": "140",
+          "zOrder": "2",
+          "properties": {
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                []
+              ]
+            }
+          }
+        },
+        {
+          "id": "4",
+          "typeID": "Label",
+          "x": "5",
+          "y": "60",
+          "measuredW": "84",
+          "measuredH": "21",
+          "zOrder": "3",
+          "properties": {
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  "Color Scheme"
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "5",
+          "typeID": "CheckBox",
+          "x": "4",
+          "y": "348",
+          "measuredW": "241",
+          "measuredH": "23",
+          "zOrder": "4",
+          "properties": {
+            "text": "Show Warnings and Errors in #D View"
+          }
+        },
+        {
+          "id": "6",
+          "typeID": "CheckBox",
+          "x": "4",
+          "y": "372",
+          "measuredW": "143",
+          "measuredH": "23",
+          "zOrder": "5",
+          "properties": {
+            "text": "Mouse Centric Zoom"
+          }
+        },
+        {
+          "id": "7",
+          "typeID": "Paragraph",
+          "x": "8",
+          "y": "80",
+          "w": "143",
+          "h": "260",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "6",
+          "properties": {
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  "Cornfield."
+                ],
+                [
+                  {
+                    "type": "link",
+                    "children": [
+                      {
+                        "type": "underline",
+                        "children": [
+                          "Metallic"
+                        ]
+                      }
+                    ]
+                  },
+                  "."
+                ],
+                [
+                  {
+                    "type": "underline",
+                    "children": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "type": "link",
+                    "children": [
+                      {
+                        "type": "underline",
+                        "children": [
+                          "unset."
+                        ]
+                      }
+                    ],
+                    "target": [
+                      "https://balsamiq.com/wireframes/desktop/docs/text/#basic-formatting"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "id": "8",
+          "typeID": "Paragraph",
+          "x": "520",
+          "y": "65",
+          "h": "232",
+          "measuredW": "275",
+          "measuredH": "80",
+          "zOrder": "7",
+          "properties": {
+            "jsonText": {
+              "v": 1,
+              "dom": [
+                [
+                  "BACKGROUND_COLOR,"
+                ],
+                [
+                  "BACKGROUND_STOP_COLOR,"
+                ],
+                [
+                  "AXES_COLOR,"
+                ],
+                [
+                  "OPENCSG_FACE_FRONT_COLOR,"
+                ],
+                [
+                  "OPENCSG_FACE_BACK_COLOR,"
+                ],
+                [
+                  "CGAL_FACE_FRONT_COLOR,"
+                ],
+                [
+                  "CGAL_FACE_2D_COLOR,"
+                ],
+                [
+                  "CGAL_FACE_BACK_COLOR,"
+                ],
+                [
+                  "CGAL_EDGE_FRONT_COLOR,"
+                ],
+                [
+                  "CGAL_EDGE_BACK_COLOR,"
+                ],
+                [
+                  "CGAL_EDGE_2D_COLOR,"
+                ],
+                [
+                  "CROSSHAIR_COLOR"
+                ]
+              ]
+            },
+            "color": "0"
+          }
+        },
+        {
+          "id": "9",
+          "typeID": "ColorPicker",
+          "x": "531",
+          "y": "6",
+          "measuredW": "26",
+          "measuredH": "27",
+          "zOrder": "8"
+        }
+      ]
+    }
+  ],
+  "symbolLibraries": [],
+  "assets": [],
+  "branches": [
+    {
+      "id": "Master",
+      "attributes": {
+        "fontFace": "Balsamiq Sans",
+        "fontSize": 13,
+        "linkColor": 545684,
+        "selectionColor": 9813234,
+        "skinName": "programmatic"
+      }
+    }
+  ],
+  "thumbnails": [
+    {
+      "id": "3A99DB28-7C98-4934-BD3B-B425EB9AB90E",
+      "attributes": {
+        "branchID": "Master",
+        "resourceID": "BD0DD1C0-73ED-4587-A781-EB8FE9A2FCBF"
+      }
+    },
+    {
+      "id": "59CFCC6C-E755-4961-BEF8-EEB97AF8D65D",
+      "attributes": {
+        "branchID": "Master",
+        "resourceID": "A5DF32DA-8F5C-4A85-AB7E-BEC259EA9D6A"
+      }
+    },
+    {
+      "id": "6948F628-5A09-43B1-B4E1-3B7363554C2F",
+      "attributes": {
+        "branchID": "Master",
+        "resourceID": "9AD5A7BC-D24C-4E04-900C-86E5EB9D5F3F"
+      }
+    },
+    {
+      "id": "88CF5842-BCBA-D75C-0469-2EC39A4BAA60",
+      "attributes": {
+        "resourceID": "2278E287-509B-183B-1098-2EC38DDDB7D8",
+        "branchID": "Master"
+      }
+    },
+    {
+      "id": "C1B89C58-21FD-4A23-813A-87E5F8B6D977",
+      "attributes": {
+        "branchID": "Master",
+        "resourceID": "AA398952-6638-459D-A9C7-8FE6D9551D45"
+      }
+    }
+  ]
+}
